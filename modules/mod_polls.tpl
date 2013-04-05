@@ -11,7 +11,7 @@
             <input type="radio" name="answer" id="optionsRadios1" value="{$answer|escape:'html'}"> {$answer}{if $cfg.shownum} ({$num}){/if}
         </label>
     {/foreach}
-    <div align="center">
+	<div align="center">
 		<input type="button" id="mod_poll_submit" class="mod_poll_submit btn" onclick="pollSubmit();" value="{$LANG.POLLS_VOTE} {if $cfg.shownum}({$poll.total_answers}){/if}">
 	</div>
     </form>
@@ -21,13 +21,13 @@
         {assign var="percent" value="`$num/$poll.total_answers*100`"}
         <span class="mod_poll_gauge_title">{$answer} ({$num})</span>
         {if $percent > 0}
-            <div class="progress">
-				<div class="bar" style="width: {$percent|ceil}%;"></div>
-			</div>
+        <div class="progress">
+ 		<div class="bar" style="width: {$percent|ceil}%;"></div>
+	</div>
         {else}
-			<div class="progress">
-				<div class="bar" style="width: 1px;"></div>
-			</div>
+	<div class="progress">
+		<div class="bar" style="width: 1px;"></div>
+	</div>
         {/if}
     {/foreach}
 {/if}

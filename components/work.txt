@@ -1,3 +1,0 @@
- MODULE 
-  POLLS 	- 100%
-  Respect 	- 100%

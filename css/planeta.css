@@ -1,0 +1,842 @@
+﻿[class^="bac-"],
+[class*=" bac-"] {
+    background-image: url("../img/icon-sprite-p.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    vertical-align: text-top;
+    width: 16px;
+}
+.mod_user_menu li {line-height:30px;}
+.mod_user_menu li:hover [class^="bac-"]{background-image:url(../img/icon-sprite-blue-p.png);}
+.mod_user_menu li.separat {margin:0 !important;}
+.separat {
+    background-color: #FFFFFF;
+    background-image: -moz-linear-gradient(left center , #DADADA, #FFFFFF);
+    background-repeat: repeat-x;
+    cursor: default;
+    height: 1px;
+    margin: 7px 0 7px 10px;
+    padding: 0;
+}
+.bac-com-like {
+    background-image: url(../img/sprite-like.png) !important;
+}
+.bac-com-dislike {
+    background-image: url(../img/sprite-like.png) !important;
+    background-position: 0 -16px;
+}
+
+.bac-scr.active {
+    background-position: -16px 0;
+}
+.bac-black {
+    background-image: url("../img/icon-sprite-p.png");
+}
+.bac-white {
+    background-image: url(../img/icon-sprite-white-p.png);
+}
+.bac-blue {
+    background-image: url(../img/icon-sprite-blue-p.png);
+}
+.bac-gray {
+    background-image: url(../img/icon-sprite-gray.png);
+}
+.bac-graydark {
+    background-image: url(../img/icon-sprite-graydark.png);
+}
+.bac-online {
+    background: url(../img/online-user.png) no-repeat 0 -15px;
+}
+.bac-offline {
+    background: url(../img/online-user.png) no-repeat 0 4px;
+}
+.bac-select {
+    background: url(../img/icon-select.png) no-repeat;
+    cursor: pointer;
+    height: 19px;
+    margin: -2px -5px 0 0;
+}
+.bac-user {
+    background-position: 0 0;
+}
+.bac-friend {
+    background-position: -24px 0;
+}
+.bac-group {
+    background-position: -48px 0;
+}
+.bac-blog {
+    background-position: -72px 0;
+}
+.bac-blog-user {
+    background-position: -94px 0;
+}
+.bac-video {
+    background-position: -120px 0;
+}
+.bac-full-length-film {
+    background-position: -120px 0;
+}
+.bac-audio {
+    background-position: -144px 0;
+}
+.bac-audio-album {
+    background-position: -144px 0;
+}
+.bac-photo {
+    background-position: -168px 0;
+}
+.bac-event {
+    background-position: -192px 0;
+}
+.bac-message {
+    background-position: -216px 0;
+}
+.bac-notification {
+    background-position: -240px 0;
+}
+.bac-news {
+    background-position: -264px 0;
+}
+.bac-info {
+    background-position: -288px 0;
+}
+.bac-action {
+    background-position: -312px 0;
+}
+.bac-shop {
+    background-position: -336px 0;
+}
+.bac-stats {
+    background-position: -360px 0;
+}
+.bac-goods {
+    background-position: -384px 0;
+}
+.bac-donate {
+    background-position: -408px 0;
+}
+.bac-exit {
+    background-position: -432px 0;
+}
+.bac-search {
+    background-position: -456px 0;
+}
+.bac-vipzone {
+    background-position: -480px 0;
+}
+.bac-settings {
+    background-position: -505px 1px;
+}
+.bac-delivery {
+    background-position: -528px 0;
+}
+.bac-outgoing {
+    background-position: -552px 0;
+}
+.bac-chart {
+    background-position: -576px 0;
+}
+.bac-house {
+    background-position: -600px 0;
+}
+.bac-grid {
+    background-position: -624px 0;
+}
+.bac-horns {
+    background-position: -648px 0;
+}
+.bac-balloons {
+    background-position: -672px 0;
+}
+.bac-statement {
+    background-position: -696px 0;
+}
+.bac-statement-add {
+    background-position: -720px 0;
+}
+.bac-project-news {
+    background-position: -744px 0;
+}
+.bac-edit {
+    background-position: 0 -24px;
+}
+.bac-filter {
+    background-position: -24px -24px;
+}
+.bac-tag {
+    background-position: -48px -24px;
+}
+.bac-comment {
+    background-position: -72px -24px;
+}
+.bac-share {
+    background-position: -96px -24px;
+}
+.bac-attend {
+    background-position: -120px -24px;
+}
+.bac-noattend {
+    background-position: -144px -24px;
+}
+.bac-visidors {
+    background-position: -168px -24px;
+}
+.bac-memor {
+    background-position: -192px -24px;
+}
+.bac-flag {
+    background-position: -216px -24px;
+}
+.bac-date {
+    background-position: -240px -24px;
+}
+.bac-place {
+    background-position: -266px -24px;
+}
+.bac-reit {
+    background-position: -287px -24px;
+}
+.bac-st-down {
+    background-position: -312px -24px;
+}
+.bac-paper {
+    background-position: -337px -24px;
+}
+.bac-edit-bold {
+    background-position: -358px -22px;
+}
+.bac-clock {
+    background-position: -383px -24px;
+}
+.bac-star {
+    background-position: -408px -24px;
+}
+.bac-flag {
+    background-position: -431px -24px;
+}
+.bac-tv {
+    background-position: -456px -24px;
+}
+.bac-play {
+    background-position: -480px -24px;
+}
+.bac-pause {
+    background-position: -504px -24px;
+}
+.bac-bag {
+    background-position: -528px -24px;
+}
+.bac-podium {
+    background-position: -552px -24px;
+}
+.bac-concert {
+    background-position: -576px -24px;
+}
+.bac-single {
+    background-position: -600px -24px;
+}
+.bac-short-film {
+    background-position: -624px -24px;
+}
+.bac-documentary {
+    background-position: -648px -24px;
+}
+.bac-special-project {
+    background-position: -671px -24px;
+}
+.bac-book {
+    background-position: -695px -24px;
+}
+.bac-audio-book {
+    background-position: -719px -24px;
+}
+.bac-vision-all {
+    background-position: 0 -48px;
+}
+.bac-vision-friend {
+    background-position: -25px -48px;
+}
+.bac-vision-list {
+    background-position: -48px -48px;
+}
+.bac-vision-me {
+    background-position: -72px -48px;
+}
+.bac-vision-some {
+    background-position: -96px -48px;
+}
+.bac-vision-group {
+    background-position: -120px -48px;
+}
+.bac-spectacle {
+    background-position: -144px -47px;
+}
+.bac-audio-spectacle {
+    background-position: -168px -47px;
+}
+.bac-performance {
+    background-position: -192px -48px;
+}
+.bac-exhibition {
+    background-position: -216px -49px;
+}
+.bac-photo-album {
+    background-position: -239px -48px;
+}
+.bac-clip {
+    background-position: -264px -48px;
+}
+.bac-project {
+    background-position: -288px -48px;
+}
+.bac-cartoon {
+    background-position: -312px -48px;
+}
+.bac-comics {
+    background-position: -336px -48px;
+}
+.bac-fashion-project {
+    background-position: -360px -48px;
+}
+.bac-art-project {
+    background-position: -384px -48px;
+}
+.bac-phone {
+    background-position: -408px -48px;
+}
+.bac-planeta {
+    background-position: -432px -48px;
+}
+.bac-game {
+    background-position: -456px -48px;
+}
+.bac-design {
+    background-position: -480px -48px;
+}
+.bac-chemical {
+    background-position: -504px -48px;
+}
+.bac-charity {
+    background-position: -528px -48px;
+}
+.bac-suitcase {
+    background-position: -552px -48px;
+}
+.bac-palette {
+    background-position: -576px -48px;
+}
+.bac-purse {
+    background-position: -600px -48px;
+}
+.bac-move {
+    background-position: -624px -48px;
+}
+.bac-airplane {
+    background-position: -648px -48px;
+}
+.bac-cup {
+    background-position: -672px -48px;
+}
+.bac-user-switch {
+    background-position: -696px -48px;
+}
+.bac-big-star {
+    background-position: -720px -48px;
+}
+.bac-attach-link {
+    background-position: 0 -72px;
+}
+.bac-attach-quest {
+    background-position: -24px -72px;
+}
+.bac-attach-mention {
+    background-position: -48px -72px;
+}
+.bac-attach-youtube {
+    background-position: -72px -72px;
+}
+.bac-attach {
+    background-position: -96px -72px;
+}
+.bac-add {
+    background-position: -120px -72px;
+}
+.bac-video-meta {
+    background-position: -144px -72px;
+}
+.bac-user-change {
+    background-position: -168px -72px;
+}
+.bac-webcam {
+    background-position: -192px -72px;
+}
+.bac-vinci {
+    background-position: -216px -72px;
+}
+.bac-twt {
+    background-position: -240px -72px;
+}
+.bac-zoom-in {
+    background-position: -264px -72px;
+}
+.bac-zoom-out {
+    background-position: -288px -72px;
+}
+.bac-film {
+    background-position: -312px -72px;
+}
+.bac-trashcan {
+    background-position: -336px -72px;
+}
+.bac-light {
+    background-position: -360px -72px;
+}
+.bac-product {
+    background-position: -384px -72px;
+}
+.bac-download {
+    background-position: -408px -72px;
+}
+.bac-resize-full {
+    background-position: -432px -72px;
+}
+.bac-resize-small {
+    background-position: -456px -72px;
+}
+.bac-rotate-r {
+    background-position: -480px -72px;
+}
+.bac-rotate-l {
+    background-position: -504px -72px;
+}
+.bac-gonfalon {
+    background-position: -528px -72px;
+}
+.bac-users {
+    background-position: -552px -72px;
+}
+.bac-linked {
+    background-position: -576px -72px;
+}
+.bac-accept-b {
+    background-position: -600px -72px;
+}
+.bac-building {
+    background-position: -624px -72px;
+    width: 18px;
+}
+.bac-tickets {
+    background-position: -648px -72px;
+}
+.bac-alarm-clock {
+    background-position: -672px -72px;
+}
+.bac-graph {
+    background-position: -696px -72px;
+}
+.bac-social {
+    background-position: -720px -72px;
+}
+.bac-ww-undo {
+    background-position: 0 -96px;
+}
+.bac-ww-redo {
+    background-position: -24px -96px;
+}
+.bac-ww-mpre {
+    background-position: -48px -96px;
+}
+.bac-ww-ol {
+    background-position: -72px -96px;
+}
+.bac-ww-ul {
+    background-position: -96px -96px;
+}
+.bac-ww-tleft {
+    background-position: -120px -96px;
+}
+.bac-ww-tcenter {
+    background-position: -144px -96px;
+}
+.bac-ww-tright {
+    background-position: -168px -96px;
+}
+.bac-ww-tjust {
+    background-position: -192px -96px;
+}
+.bac-ww-bold {
+    background-position: -216px -96px;
+}
+.bac-ww-italic {
+    background-position: -240px -96px;
+}
+.bac-ww-underline {
+    background-position: -264px -96px;
+}
+.bac-ww-ileft {
+    background-position: -289px -96px;
+}
+.bac-ww-inone {
+    background-position: -312px -96px;
+}
+.bac-ww-iright {
+    background-position: -336px -96px;
+}
+.bac-ww-size {
+    background-position: -360px -96px;
+}
+.bac-ww-size-full {
+    background-position: -384px -96px;
+}
+.bac-img-full {
+    background-position: -408px -96px;
+}
+.bac-add-list {
+    background-position: -432px -96px;
+}
+.bac-pluse {
+    background-position: 0 -120px;
+}
+.bac-minus {
+    background-position: -24px -120px;
+}
+.bac-save {
+    background-position: -48px -120px;
+}
+.bac-close {
+    background-position: -72px -120px;
+}
+.bac-print {
+    background-position: -96px -120px;
+}
+.bac-more {
+    background-position: -120px -120px;
+}
+.bac-toltip-info {
+    background-position: -144px -120px;
+}
+.bac-invite {
+    background-position: -168px -120px;
+}
+.bac-dismiss {
+    background-position: -192px -120px;
+}
+.bac-invite-group {
+    background-position: -216px -120px;
+}
+.bac-tag-add {
+    background-position: -240px -120px;
+}
+.bac-out {
+    background-position: -264px -120px;
+}
+.bac-in {
+    background-position: -288px -120px;
+}
+.bac-close-message {
+    background-position: -312px -120px;
+}
+.bac-accept {
+    background-position: -336px -120px;
+}
+.bac-donaccept {
+    background-position: -360px -120px;
+}
+.bac-reload {
+    background-position: -384px -120px;
+}
+.bac-accept-rdo {
+    background-position: -408px -120px;
+}
+.bac-donaccept-rdo {
+    background-position: -432px -120px;
+}
+.bac-minus-rdo {
+    background-position: -456px -120px;
+}
+.bac-pluse-rdo {
+    background-position: -480px -120px;
+}
+.bac-refresh {
+    background-position: -504px -120px;
+}
+.bac-profile-settings {
+    background-position: -528px -120px;
+}
+.bac-album {
+    background-position: -552px -120px;
+}
+.bac-drap-upload {
+    background-position: -576px -120px;
+    width: 18px;
+}
+.bac-purse-small {
+    background-position: -600px -119px;
+}
+.bac-vect-comment {
+    background-position: 0 -144px;
+}
+.bac-vect-like {
+    background-position: -24px -144px;
+}
+.bac-vect-share {
+    background-position: -48px -144px;
+}
+.bac-vect-dislike {
+    background-position: -72px -144px;
+}
+.bac-str-d {
+    background-position: -98px -144px;
+    width: 12px;
+}
+.bac-str-u {
+    background-position: -122px -144px;
+    width: 12px;
+}
+.bac-str-l {
+    background-position: -146px -144px;
+    width: 12px;
+}
+.bac-str-r {
+    background-position: -170px -144px;
+    width: 12px;
+}
+.bac-vect-comment-bubble {
+    background-position: -192px -144px;
+}
+.bac-vect-shop-like {
+    background-position: -216px -144px;
+}
+.bac-vect-group {
+    background-position: -240px -144px;
+}
+.bac-ban {
+    background-position: -264px -144px;
+}
+.bac-small-option {
+    background-position: 0 -168px;
+}
+.bac-small-bubble {
+    background-position: -24px -168px;
+}
+.bac-small-download {
+    background-position: -48px -168px;
+}
+.bac-small-delete {
+    background-position: -72px -168px;
+}
+.bac-small-edit {
+    background-position: -96px -168px;
+}
+.bac-small-pluse {
+    background-position: -120px -168px;
+}
+.bac-small-minus {
+    background-position: -144px -168px;
+}
+.bac-notif-wall {
+    background-position: -168px -168px;
+}
+.bac-notif-wall-comment {
+    background-position: -192px -168px;
+}
+.bac-notif-invite {
+    background-position: -216px -168px;
+}
+.bac-notif-photo-comment {
+    background-position: -240px -168px;
+}
+.bac-notif-video-comment {
+    background-position: -264px -168px;
+}
+.bac-notif-group {
+    background-position: -288px -168px;
+}
+.bac-notif-robot {
+    background-position: -312px -168px;
+}
+.bac-notif-product-comment {
+    background-position: -336px -168px;
+}
+.bac-notif-product-buy {
+    background-position: -360px -168px;
+}
+.bac-notif-product-status {
+    background-position: -384px -168px;
+}
+.bac-notif-order-status {
+    background-position: -408px -168px;
+}
+.bac-notif-project-comment {
+    background-position: -432px -168px;
+}
+.bac-notif-alert {
+    background-position: -456px -168px;
+}
+.bac-auto {
+    background-position: -480px -168px;
+}
+.bac-lodge {
+    background-position: -504px -168px;
+}
+.bac-ok {
+    background-position: -528px -168px;
+}
+.bac-exclamation-sign {
+    background-position: -552px -168px;
+}
+.bac-notif-message {
+    background-position: -576px -168px;
+}
+.bac-notif-friend {
+    background-position: -600px -168px;
+}
+.bac-notif-event {
+    background-position: -624px -168px;
+}
+.bac-notif-goods {
+    background-position: -648px -168px;
+}
+.bac-notif-news {
+    background-position: -672px -168px;
+}
+.bac-notif-action {
+    background-position: -696px -168px;
+}
+.bac-notif-other {
+    background-position: -720px -168px;
+}
+.bac-notif-admin {
+    background-position: -744px -168px;
+}
+.bac-notif-sound {
+    background-position: -768px -168px;
+}
+.bac-notif-chrome {
+    background-position: -792px -168px;
+}
+.bac-paper {
+    width: 14px;
+}
+
+/*!тултипы*/
+.hint{position:relative;display:inline-block}
+.hint:before,.hint:after{
+position:absolute;opacity:0;
+z-index:1000000;
+pointer-events:none;
+-webkit-transition:.3s ease;-moz-transition:.3s ease;transition:.3s ease
+}
+.hint:hover:before,.hint:hover:after{opacity:0.8}
+
+.hint:before{content:'';
+position:absolute;
+background:transparent;
+border:6px solid transparent;
+z-index:1000001
+}
+.hint:after{content:attr(data-hint);
+background-color: #000000;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+color:#fff;text-shadow:0 -1px 0 black;
+padding:8px 10px;font-size:12px;
+line-height:12px;white-space:nowrap;
+box-shadow:4px 4px 8px rgba(0,0,0,.3)
+}
+.hint--top:before{border-top-color:#383838}
+.hint--bottom:before{border-bottom-color:#383838}
+.hint--left:before{border-left-color:#383838}.hint--right:before{border-right-color:#383838}.hint--top:before{margin-bottom:-12px}
+.hint--top:after{margin-left:-18px}
+.hint--top:before,.hint--top:after{bottom:100%;left:50%}
+.hint--top:hover:before,.hint--top:hover:after{-webkit-transform:translateY(-8px);-moz-transform:translateY(-8px);transform:translateY(-8px)}
+.hint--bottom:before{margin-top:-12px}
+.hint--bottom:after{margin-left:-18px}
+.hint--bottom:before,.hint--bottom:after{top:100%;left:50%}
+.hint--bottom:hover:before,.hint--bottom:hover:after{-webkit-transform:translateY(8px);-moz-transform:translateY(8px);transform:translateY(8px)}
+.hint--right:before{margin-left:-12px;margin-bottom:-6px}
+.hint--right:after{margin-bottom:-14px}
+.hint--right:before,.hint--right:after{left:100%;bottom:50%}
+.hint--right:hover:before,.hint--right:hover:after{-webkit-transform:translateX(8px);-moz-transform:translateX(8px);transform:translateX(8px)}.hint--left:before{margin-right:-12px;margin-bottom:-6px}
+.hint--left:after{margin-bottom:-14px}.hint--left:before,.hint--left:after{right:100%;bottom:50%}
+.hint--left:hover:before,.hint--left:hover:after{-webkit-transform:translateX(-8px);-moz-transform:translateX(-8px);transform:translateX(-8px)}.hint--error:after{background-color:#b34e4d;text-shadow:0 -1px 0 #5a2626}
+.hint--error.hint--top:before{border-top-color:#b34e4d}.hint--error.hint--bottom:before{border-bottom-color:#b34e4d}
+.hint--error.hint--left:before{border-left-color:#b34e4d}.hint--error.hint--right:before{border-right-color:#b34e4d}
+.hint--warning:after{background-color:#c09854;text-shadow:0 -1px 0 #6d5228}
+.hint--warning.hint--top:before{border-top-color:#c09854}.hint--warning.hint--bottom:before{border-bottom-color:#c09854}
+.hint--warning.hint--left:before{border-left-color:#c09854}.hint--warning.hint--right:before{border-right-color:#c09854}
+.hint--info:after{background-color:#3986ac;text-shadow:0 -1px 0 #193c4c}.hint--info.hint--top:before{border-top-color:#3986ac}
+.hint--info.hint--bottom:before{border-bottom-color:#3986ac}.hint--info.hint--left:before{border-left-color:#3986ac}
+.hint--info.hint--right:before{border-right-color:#3986ac}.hint--success:after{background-color:#458746;text-shadow:0 -1px 0 #1a331a}
+.hint--success.hint--top:before{border-top-color:#458746}.hint--success.hint--bottom:before{border-bottom-color:#458746}
+.hint--success.hint--left:before{border-left-color:#458746}.hint--success.hint--right:before{border-right-color:#458746}
+.hint--always:after,.hint--always:before{opacity:1}.hint--always.hint--top:after,.hint--always.hint--top:before{-webkit-transform:translateY(-8px);-moz-transform:translateY(-8px);transform:translateY(-8px)}
+.hint--always.hint--bottom:after,.hint--always.hint--bottom:before{-webkit-transform:translateY(8px);-moz-transform:translateY(8px);transform:translateY(8px)}
+.hint--always.hint--left:after,.hint--always.hint--left:before{-webkit-transform:translateX(-8px);-moz-transform:translateX(-8px);transform:translateX(-8px)}
+.hint--always.hint--right:after,.hint--always.hint--right:before{-webkit-transform:translateX(8px);-moz-transform:translateX(8px);transform:translateX(8px)}
+
+.hint--rounded:after{border-radius:4px}
+/*!тултипы*/
+
+/*background*/
+.user_group_name .admin,
+.user_group_name .registered,
+.user_group_name .editors,
+.user_group_name .moderators,
+.user_group_name .vip,
+.usr_friends_query_yes, .usr_friends_query_no  {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  padding-left:20px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+.usr_friends_query_yes 	{ background-position:-288px 0; }
+.usr_friends_query_no 	{ background-position:-24px -96px; }
+.user_group_name .admin 	{ background-position: -336px -144px; }
+.user_group_name .registered { background-position:-168px 0; }
+.user_group_name .editors { background-position:0 -72px; }
+.user_group_name .moderators { background-position: -144px 0; }
+.user_group_name .vip { background-position:-120px 0; }
+/*!background*/
+
+/*!background com_actions_tab.tpl*/
+.icon-act_add_comment{ background-position:-240px -120px;}
+.icon-act_add_photo, .icon-act_add_photo_club{ background-position:-456px -48px;}
+.icon-act_add_article{ background-position: ;}
+.icon-act_set_status{ background-position:-336px -120px;}
+.icon-act_add_friend{ background-position:;}
+.icon-act_add_blog{ background-position:-48px -48px;}
+.icon-act_add_post{ background-position:-24px -24px;}
+.icon-act_add_board{ background-position: -360px -120px;}
+.icon-act_add_catalog{ background-position: -360px -120px;}
+.icon-act_add_club{ background-position:-336px -144px;}
+.icon-act_add_club_user{ background-position: ;}
+.icon-act_add_quest{ background-position: ;}
+.icon-act_add_fpost{ background-position: ;}
+.icon-act_add_thread{ background-position: ;}
+.icon-act_add_avatar{ background-position:-168px 0;}
+.icon-act_add_award{ background-position: ;}
+.icon-act_add_file{ background-position: ;}
+.icon-act_add_wall{ background-position: ;}
+.icon-act_add_wall_club{ background-position: ;}
+.icon-act_add_post_club{ background-position: ;}
+.icon-act_add_user_photo{ background-position: ;}
+.icon-act_add_user_photo_multi{ background-position: ;}
+.icon-act_add_user{ background-position:-168px 0;}
+.icon-act_add_wall_my{ background-position: ;}
+/*!background com_actions_tab.tpl*/
+
+input.btn {height:30px;}
+.topfile {position:relative; top:0 !important;}
